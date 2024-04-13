@@ -1,0 +1,120 @@
+/*   Courgette */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@1,600&family=Roboto+Condensed:ital,wght@1,500&display=swap');
+/*   Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* BODY */
+body {
+    padding: 20px;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+.desde {
+    font-family: "Dancing Script", sans-serif, serif;
+    text-align: center;
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif, serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif, serif;
+}
+p {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif, serif;
+}
+
+hr {
+    height: 2px;
+    background-color: orange;
+    border-color: rgb(250, 211, 138);
+}
+
+/* Menú */
+.menu {
+    position: relative; 
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    height: 80vh;
+    z-index: 1;
+}
+
+.logo {
+    background-image: url(./img/Logo.png); 
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    max-height: 300px;
+    position: absolute;
+    top: -350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+.cafe, .te {
+    text-align: left;
+    width: 60%; 
+}
+
+.precio {
+    text-align: right;
+    width: 40%; 
+}
+
+.item p {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+
+section {
+    height: 25vh;
+}
