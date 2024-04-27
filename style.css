@@ -32,11 +32,7 @@ h2 {
     font-family: "Josefin Sans", sans-serif, serif;
 }
 
-hr {
-    height: 2px;
-    background-color: orange;
-    border-color: rgb(250, 211, 138);
-}
+
 
 /* Menú */
 .menu {
@@ -68,7 +64,6 @@ hr {
     opacity: 0.2;
 }
 
-
 .cafe, .te {
     text-align: left;
     width: 60%; 
@@ -79,11 +74,18 @@ hr {
 }
 
 .precio {
-    text-align: right;
-    width: 40%; 
+    text-align: center;
+    width: 20%; 
     display: inline-block;
     margin: 13px 0;
     font-size: 33px;
+}
+.parallevar {
+    width: 20%; 
+    display: inline-block;
+    margin: 13px 0;
+    font-size: 33px;
+    text-align: right;
 }
 
 .item.item--back.te {
@@ -96,21 +98,20 @@ hr {
 }
 
 /* Footer */
+
+hr {
+    height: 2px;
+    background-color: orange;
+    border-color: rgb(250, 211, 138);
+    margin: 0 auto; 
+    max-width: calc(100% - 40px);
+}
+
 footer {
+    position: absolute; 
+    bottom: 0; 
     text-align: center;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
 }
-
-
-
-a:hover {
-    color: gold;
+.textbot {
+    font-size: 33px;
 }
-
-.address {
-    margin-bottom: 5px;
-}
-
-
