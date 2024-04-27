@@ -46,7 +46,7 @@ hr {
     margin: 0 auto;
     padding: 20px;
     background-color: white;
-    height: 80vh;
+    height: 94vh;
     z-index: 1;
 }
 
@@ -73,7 +73,7 @@ hr {
     text-align: left;
     width: 60%; 
     display: inline-block;
-    margin: 5px 0;
+    margin: 13px 0;
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif, serif;
 }
@@ -82,11 +82,13 @@ hr {
     text-align: right;
     width: 40%; 
     display: inline-block;
-    margin: 5px 0;
-    font-size: 30px;
+    margin: 13px 0;
+    font-size: 33px;
 }
 
-
+.item.item--back.te {
+    margin-bottom: 10px;
+}
 
 
 .bottom-line {
@@ -97,13 +99,11 @@ hr {
 footer {
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
-}
-
-a {
     color: black;
     text-decoration: none;
 }
+
+
 
 a:hover {
     color: gold;
