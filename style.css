@@ -27,9 +27,10 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
     font-family: "Josefin Sans", sans-serif, serif;
+    margin-bottom: 10px;
 }
 
 
@@ -44,6 +45,9 @@ h2 {
     background-color: white;
     height: 94vh;
     z-index: 1;
+}
+body, .menu {
+    background-color: white; 
 }
 
 .logo {
@@ -86,6 +90,12 @@ h2 {
     margin: 13px 0;
     font-size: 33px;
     text-align: right;
+}
+.parallevar--titulo {
+    /* PRUEBA tamaño del font */
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif, serif;
 }
 
 .item.item--back.te {
