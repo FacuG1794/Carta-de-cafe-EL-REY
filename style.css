@@ -46,9 +46,7 @@ h2 {
     height: 94vh;
     z-index: 1;
 }
-body, .menu {
-    background-color: white; 
-}
+
 
 .logo {
     background-image: url(./img/Logo.png); 
@@ -91,6 +89,9 @@ body, .menu {
     font-size: 33px;
     text-align: right;
 }
+.parallevar-{
+    width: 18%;
+}
 .parallevar--titulo {
     /* PRUEBA tamaño del font */
     font-size: 28px;
@@ -118,10 +119,33 @@ hr {
 }
 
 footer {
-    position: absolute; 
     bottom: 0; 
     text-align: center;
 }
 .textbot {
     font-size: 33px;
+}
+
+/* MEDIAQUERYS */
+@media screen and (orientation: landscape) {
+    .menu {
+        height: 500vh;
+    }
+    .cafe, .te {
+        font-size: 30px; 
+    }
+
+    .precio, .parallevar {
+        font-size: 25px;
+    }
+}
+@media screen and (max-height: 666px) {
+    /* Ajustar el margen inferior del segundo section */
+
+
+    /* Ajustar el margen superior del footer */
+    footer {
+        margin-top: 50px;
+        position: static;  /* O ajusta este valor según lo necesites */
+    }
 }
