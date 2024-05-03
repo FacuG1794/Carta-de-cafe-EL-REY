@@ -1,9 +1,12 @@
-/*   Courgette */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@1,600&family=Roboto+Condensed:ital,wght@1,500&display=swap');
 /*   Josefin Sans */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 /* Dancing Script */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* Sedan SC */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Sedan+SC&display=swap');
+/* Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Damion&family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&family=Sedan+SC&display=swap');
+
 
 /* BODY */
 body {
@@ -17,25 +20,25 @@ body {
     font-size: 30px;
     margin: 0;
 }
+
 h1 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 15px;
+    font-size: 80px;
+    margin: 0;
     position: relative;
     text-align: center;
-    font-family: "Josefin Sans", sans-serif, serif;
+    font-family: "Roboto Slab", sans-serif, serif;
+    color: #272727;
+    letter-spacing: 1px;
 }
 
 h2 {
     font-size: 50px;
     text-align: center;
-    font-family: "Josefin Sans", sans-serif, serif;
-    margin-bottom: 10px;
+    font-family: "Sedan SC", sans-serif, serif;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
-
-
-/* Menú */
 .menu {
     position: relative; 
     width: 80%;
@@ -43,10 +46,9 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     background-color: white;
-    height: 94vh;
+    min-height: 94vh;
     z-index: 1;
 }
-
 
 .logo {
     background-image: url(./img/Logo.png); 
@@ -81,28 +83,24 @@ h2 {
     display: inline-block;
     margin: 13px 0;
     font-size: 33px;
+    font-family: "Josefin Sans", sans-serif, serif;
 }
 .parallevar {
     width: 20%; 
     display: inline-block;
-    margin: 13px 0;
+    margin: 13px 0 0 0;
     font-size: 33px;
     text-align: right;
+    font-family: "Josefin Sans", sans-serif, serif;
 }
 .parallevar-{
     width: 18%;
 }
 .parallevar--titulo {
-    /* PRUEBA tamaño del font */
     font-size: 28px;
     font-weight: bold;
     font-family: "Josefin Sans", sans-serif, serif;
 }
-
-.item.item--back.te {
-    margin-bottom: 10px;
-}
-
 
 .bottom-line {
     margin-top: 25px;
@@ -121,31 +119,20 @@ hr {
 footer {
     bottom: 0; 
     text-align: center;
+    margin-top: 50px;
 }
 .textbot {
     font-size: 33px;
+    font-family: "Josefin Sans", sans-serif, serif;
 }
 
 /* MEDIAQUERYS */
 @media screen and (orientation: landscape) {
-    .menu {
-        height: 500vh;
-    }
+    
     .cafe, .te {
         font-size: 30px; 
     }
-
     .precio, .parallevar {
         font-size: 25px;
-    }
-}
-@media screen and (max-height: 666px) {
-    /* Ajustar el margen inferior del segundo section */
-
-
-    /* Ajustar el margen superior del footer */
-    footer {
-        margin-top: 50px;
-        position: static;  /* O ajusta este valor según lo necesites */
     }
 }
